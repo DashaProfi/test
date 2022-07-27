@@ -47,8 +47,5 @@
     "postcss-csso": "^6.0.0",
     "stylelint": "^13.13.1",
     "stylelint-config-htmlacademy": "0.1.11"
-  },
-  "dependencies": {
-    "vivus": "^0.4.6"
   }
 }
