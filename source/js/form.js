@@ -25,13 +25,13 @@ function startAnimation() {
 }
 startAnimation();
 
-// new Vivus(
-// 	'svg',
-// 	{
-// 		type: 'delayed',
-// 		duration: 400,
-// 	}
-// );
+new Vivus(
+	'svg',
+	{
+		type: 'delayed',
+		duration: 400,
+	}
+);
 
 function shakeSubmitButton(){
 	submitButton.classList.add ('form__button--animated');
