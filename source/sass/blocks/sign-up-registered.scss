@@ -1,0 +1,66 @@
+.sign-up-registered {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 528px;
+	height: 481px;
+	padding: 39px 22px 32px 21px;
+	background-color: $white;
+	box-sizing: border-box;
+	border-bottom: 0.5px solid $light_grey;
+	border-top: 0.5px solid $light_grey;
+}
+
+.sign-up-registered-container {
+	display: flex;
+	flex-direction: column;
+	padding: 178px 0 0 42px;
+}
+
+.sign-up-registered__title {
+	font-family: $font_work_sans;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: -0.46px;
+	margin: 0 0 10px 0;
+}
+
+.sign-up-registered__text {
+	font-family: $font_work_sans;
+	font-weight: 300;
+	margin: 0 0 20px 0;
+}
+
+.sign-up-registered-text-wrapper {
+	display: flex;
+	align-items: center;
+	margin-bottom: 11px;
+	padding-top: 132px;
+}
+
+.sign-up-registered__question {
+	font-family: $font_work_sans;
+	color: $black;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 15px;
+	margin: 0 3.5px 0 0;
+}
+
+.sign-up-registered__link {
+	font-family: $font_work_sans;
+	color: $blue;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 15px;
+	cursor: pointer;
+}
+
+@media (max-width: $tablet-width) {
+	.sign-up-registered {
+		max-width: 528px;
+		width: 100%;
+		height: unset;
+	}
+}
