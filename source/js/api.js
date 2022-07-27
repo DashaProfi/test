@@ -2,7 +2,7 @@ import {showAlertOk, showAlertError,resetForm} from "./util.js";
 import {shakeSubmitButton} from "./form.js";
 
 function sendData(body) {
-	fetch('http://localhost:3000/server/ok.json', {
+	fetch('/server/ok.json', {
 		method: 'GET',
 	})
 		.then((response) => response.json()
