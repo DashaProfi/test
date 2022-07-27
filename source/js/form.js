@@ -25,13 +25,15 @@ function startAnimation() {
 }
 startAnimation();
 
-new Vivus(
+const vivuss = new Vivus(
 	'svg',
 	{
 		type: 'delayed',
 		duration: 400,
 	}
 );
+
+vivuss.play();
 
 function shakeSubmitButton(){
 	submitButton.classList.add ('form__button--animated');
